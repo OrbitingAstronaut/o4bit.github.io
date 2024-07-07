@@ -50,16 +50,39 @@
             font-size: 2.5em;
             color: #6a11cb;
         }
-        .content h2 {
-            color: #333;
-            font-size: 2em;
+        .content {
+            margin-top: 30px;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            margin-bottom: 20px;
+            object-fit: cover;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+        .card {
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: inline-block;
+            text-align: left;
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .card h2 {
+            color: #fff;
+            font-size: 1.8em;
             margin-bottom: 10px;
         }
-        .content p {
+        .card p {
+            color: #fff;
             font-size: 1.1em;
             line-height: 1.6;
-            margin: 20px 0;
-            color: #555;
+            margin-bottom: 20px;
         }
         .links {
             display: flex;
@@ -69,18 +92,19 @@
         }
         .links a {
             display: inline-block;
-            padding: 10px 20px;
+            padding: 12px 18px;
             text-decoration: none;
             color: #fff;
-            border-radius: 25px;
+            border-radius: 30px;
             background: linear-gradient(45deg, #2575fc, #6a11cb);
             transition: background 0.3s, transform 0.3s;
             font-weight: bold;
             position: relative;
+            font-size: 1.1em;
         }
         .links a:hover {
             background: linear-gradient(45deg, #6a11cb, #2575fc);
-            transform: translateY(-5px);
+            transform: translateY(-3px);
         }
         .links a i {
             margin-right: 10px;
@@ -98,12 +122,15 @@
             <h1>About Me</h1>
         </header>
         <div class="content">
-            <h2>Welcome to The Spacestation!</h2>
-            <p>Heyo! I'm Orbit (a.k.a O4bit) I like to make modpacks now and then and code random stuff if I feel like it. Have a great day! :3</p>
+            <img src="https://cdn.discordapp.com/attachments/1074435296978026588/1254337465137893446/ezgif-7-2eaf8a8b05.gif" alt="Profile Picture" class="profile-pic">
+            <div class="card">
+                <h2>Welcome to The Spacestation!</h2>
+                <p>Heyo! I'm Orbit (a.k.a O4bit). I like to make modpacks now and then and code random stuff if I feel like it. Have a great day! :3</p>
+            </div>
             <div class="links">
-                <a href="https://discord.gg/62BUZMX3Ue" target="_blank"><i class="fab fa-discord"></i>Join My Discord Server</a>
-                <a href="https://www.youtube.com/channel/UCUjMV49h5zvXZVbOqAhjHgA" target="_blank"><i class="fab fa-youtube"></i>Subscribe to My YouTube Channel</a>
-                <a href="https://x.com/O4bit_" target="_blank"><i class="fab fa-twitter"></i>Follow Me on Twitter</a>
+                <a href="https://discord.gg/62BUZMX3Ue" target="_blank"><i class="fab fa-discord"></i></a>
+                <a href="https://www.youtube.com/channel/UCUjMV49h5zvXZVbOqAhjHgA" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://x.com/O4bit_" target="_blank"><i class="fab fa-twitter"></i></a>
             </div>
         </div>
     </div>
